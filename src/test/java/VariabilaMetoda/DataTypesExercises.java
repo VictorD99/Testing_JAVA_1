@@ -98,6 +98,7 @@ public class DataTypesExercises {
 
     }
 
+
 //Calculate the Hypotenuse of a Right-Angled Triangle
 //Given the lengths of the two shorter sides of a right-angled triangle, calculate the length of the hypotenuse. Remember, the hypotenuse of a right-angled triangle can be found using Pythagoras theorem, which states that the square of the hypotenuse is equal to the sum of the squares of the other two sides.
 
