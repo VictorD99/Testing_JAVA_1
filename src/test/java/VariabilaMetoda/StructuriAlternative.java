@@ -22,6 +22,8 @@ public class StructuriAlternative {
         metodaNumarParPoz(-1);
         metodaNumarParPoz(-8);
 
+        zileSaptamana(3);
+
 
     }
 
@@ -55,5 +57,31 @@ public class StructuriAlternative {
             System.out.println("Numarul " + Valoare + " este 0");
         }
     }
+
+    //if are conditii/switch are valoare, switch este mai rapid(sare direct in pas), switch mai bun pt meniuri si submeniuri
+    //exemplu switch case
+    public void zileSaptamana(Integer zi) {
+        switch (zi) {
+            case 1:
+                System.out.println("Azi este luni");
+                break;
+            case 2:
+                System.out.println("Azi este marti");
+                break;
+            case 3:
+                System.out.println("Azi este miercuri");
+                break;
+            case 4:
+                System.out.println("Azi este joi");
+                break;
+            default:
+                System.out.println("Nu mai sunt zile");
+
+
+        }
+    }
+
+
+
 
 }
