@@ -2,6 +2,8 @@ package VariabilaMetoda;
 
 import org.testng.annotations.Test;
 
+import java.util.Scanner;
+
 public class Masina {
 
     public String marca;
@@ -17,6 +19,8 @@ public void metodaTest(){
 
     calculMedie(5.0,10.0);
     calculMedie(7.0,3.0);
+
+    //citireNote();
 
 }
 
@@ -44,6 +48,21 @@ public void metodaTest(){
         System.out.println("Media celor 2 note este: "+rezultat);
 
     }
+
+    //"Scanner" - citeste valori din terminal
+    //cat timp satisfaci o conditie(linia 58)executi ce este in paranteze,cand nu mai este valabila conditia executi dupa paranteze
+
+    /*public void citireNote() {
+        Scanner scanner = new Scanner(System.in);
+        int nota = scanner.nextInt();
+        while (nota < 0 || nota > 10) {
+            System.out.println("Nota " + nota + "trebuie sa fie intre 1 si 10.Te rog introdu o valoare valida");
+            nota = scanner.nextInt();
+
+        }
+        System.out.println("Nota " + nota + " este intre 1 si 10");
+
+    }*/
 
 
 }

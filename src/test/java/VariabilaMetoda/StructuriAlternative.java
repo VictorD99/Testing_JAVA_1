@@ -12,8 +12,7 @@ public class StructuriAlternative {
 //        metodaVerificareNumar(3);
 //        metodaVerificareNumar(5);
 
-        //"CTRL + D" - shortcut care copiaza metoda
-        //"CTR + /" - comenteaza liniile selectate
+
 
         metodaNumarParPoz(0);
 
@@ -38,7 +37,12 @@ public class StructuriAlternative {
         }
     }
 
+
+    //"CTRL + D" - shortcut care copiaza metoda
+    //"CTR + /" - comenteaza liniile selectate
+    //"psvm" -public static void main
     //"CTR+ALT+L" - aranjeaza liniile de cod
+
     //verificam daca un numar este par pozitiv sau negativ
     public void metodaNumarParPoz(int Valoare) {
         if (Valoare > 0) {
